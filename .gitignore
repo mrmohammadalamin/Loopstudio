@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Recovery & Patch Scratch Files
+best_canvas_snippet.txt
+diff_output.txt
+extracted_canvas.js
+last_diff.txt
+recovered_canvas_raw.txt
+sidebar_backup.txt
+extract.py
+extract_ast.cjs
+patch.js
+patch.cjs
+patch_canvas.cjs
+patch_canvas.py
+repair_canvas.cjs
+
