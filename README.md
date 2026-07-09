@@ -195,7 +195,7 @@ Make sure you have [Node.js](https://nodejs.org/) (v18+) and npm installed on yo
 
 ---
 
-## 🏅 Sprint Judging Key Points
+## 🏅 Sprint Key Points
 
 * **Context Saturation Solution:** Explains how dividing a high-volume print task into micro-batches handled by individual, short-lived subagents protects the main agent's context window.
 * **Shared Agent Harness:** Demonstrates how worker subagents operate in a `SHARE` workspace mode, accessing the React components and built-in assets dynamically to generate and test previews.
