@@ -8,10 +8,12 @@
 ---
 
 ## 📸 System Overview & Walkthrough
+
+### Product Interface Screenshot
+![Loopstudio Product Screenshot](./loopstudio.png)
+
 > [!NOTE]
-> *This section is reserved for the sprint submission media.*
 > - **Recorded Walkthrough Video:** `[Insert YouTube or Loom Link here]`
-> - **Product Screenshots:** Inside the `/public` folder or embedded here.
 
 ---
 
