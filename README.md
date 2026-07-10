@@ -1,11 +1,6 @@
 # 🎨 Loopstudio: AI-Powered Print Template Automation Platform
 
-### 🏆 Submitted for the **Agentic Architect Sprint**
-**Category:** Core Architecture & Multi-Agent Orchestration  
-**Selected Topic:** Dynamic Subagents & Shared Agent Harness  
-**Tooling Stack:** Antigravity 2.0 (Desktop Command Center), Antigravity CLI (TUI), and Antigravity Python SDK
 
----
 
 ## 📸 System Overview & Walkthrough
 
@@ -206,7 +201,7 @@ Make sure you have [Node.js](https://nodejs.org/) (v18+) and npm installed on yo
 
 ---
 
-## 🏅 Sprint Key Points
+## 🏅 Project Key Points
 
 * **Context Saturation Solution:** Explains how dividing a high-volume print task into micro-batches handled by individual, short-lived subagents protects the main agent's context window.
 * **Shared Agent Harness:** Demonstrates how worker subagents operate in a `SHARE` workspace mode, accessing the React components and built-in assets dynamically to generate and test previews.
