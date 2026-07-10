@@ -14,13 +14,15 @@ Click the link below to watch the video demonstration of Loopstudio:
 👉 **[Watch the Walkthrough Video on YouTube](https://youtu.be/g4wcdvdrRD8)**
 
 ### 🖼️ Product Interface Screenshots
-````carousel
-![Loopstudio Dashboard - Template Editor](./screenshots/screen1.png)
-<!-- slide -->
-![Loopstudio Data Merge - Bulk Event Badges](./screenshots/screen2.png)
-<!-- slide -->
-![Loopstudio PDF Export Preview](./screenshots/screen3.png)
-````
+
+#### 1. Template Editor & Canvas Layout
+![Template Editor](./screenshots/screen1.png)
+
+#### 2. Bulk Data Merge Panel
+![Data Merge](./screenshots/screen2.png)
+
+#### 3. PDF Grid Preview & Preflight Verification
+![PDF Preview](./screenshots/screen3.png)
 
 ---
 
