@@ -9,11 +9,18 @@
 
 ## 📸 System Overview & Walkthrough
 
-### Product Interface Screenshot
-![Loopstudio Product Screenshot](./loopstudio.png)
+### 📺 Recorded Walkthrough Video
+Click the link below to watch the video demonstration of Loopstudio:  
+👉 **[Watch the Walkthrough Video on YouTube](https://youtu.be/g4wcdvdrRD8)**
 
-> [!NOTE]
-> - **Recorded Walkthrough Video:** `[Insert YouTube or Loom Link here]`
+### 🖼️ Product Interface Screenshots
+````carousel
+![Loopstudio Dashboard - Template Editor](./screenshots/screen1.png)
+<!-- slide -->
+![Loopstudio Data Merge - Bulk Event Badges](./screenshots/screen2.png)
+<!-- slide -->
+![Loopstudio PDF Export Preview](./screenshots/screen3.png)
+````
 
 ---
 

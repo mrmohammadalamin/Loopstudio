@@ -38,3 +38,6 @@ patch_canvas.cjs
 patch_canvas.py
 repair_canvas.cjs
 
+# Event Walkthrough Videos
+*.mp4
+
