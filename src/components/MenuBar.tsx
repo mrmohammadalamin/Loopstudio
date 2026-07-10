@@ -143,8 +143,8 @@ export function MenuBar({
     <div className="menu-bar-container" ref={menuRef}>
       {/* Logo */}
       <div className="logo-section">
-        <div className="logo-icon-box">V</div>
-        <span className="logo-text">VividStudio <span className="logo-badge">Pro</span></span>
+        <div className="logo-icon-box">L</div>
+        <span className="logo-text">Loopstudio <span className="logo-badge">Pro</span></span>
       </div>
 
       {/* Menus */}
@@ -167,7 +167,7 @@ export function MenuBar({
               </label>
               <Divider/>
               <Btn icon={<Icons.Save size={14}/>} label="Save Project" shortcut="Ctrl+S"
-                onClick={()=>act(()=>{const n=prompt('Project name:','Vivid Design');if(n) onSaveProject(n);})} />
+                onClick={()=>act(()=>{const n=prompt('Project name:','Loopstudio Design');if(n) onSaveProject(n);})} />
               <Divider/>
               <SubMenu label="Export As..." icon={<Icons.Download size={14}/>}>
                 <Btn label="PNG Image (.png)"       onClick={()=>act(()=>onExport('png'))} />

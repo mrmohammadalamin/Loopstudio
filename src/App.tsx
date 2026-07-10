@@ -74,7 +74,7 @@ const DEFAULT_DOCUMENT: GraphicDocument = {
       opacity: 1,
       locked: false,
       visible: true,
-      text: 'Express Your Creativity in Vivid Studio',
+      text: 'Express Your Creativity in Loopstudio',
       fontSize: 24,
       fontFamily: 'Outfit',
       fontWeight: '600',
@@ -140,7 +140,7 @@ function App() {
 
   // Local projects sync on mount
   useEffect(() => {
-    const saved = localStorage.getItem('vivid_projects');
+    const saved = localStorage.getItem('loopstudio_projects');
     if (saved) {
       try {
         setLocalProjects(JSON.parse(saved));
@@ -159,7 +159,7 @@ function App() {
     };
     const updated = [newProject, ...localProjects.filter((p) => p.name !== projectName)];
     setLocalProjects(updated);
-    localStorage.setItem('vivid_projects', JSON.stringify(updated));
+    localStorage.setItem('loopstudio_projects', JSON.stringify(updated));
     confettiCelebration();
   };
 
@@ -174,7 +174,7 @@ function App() {
   const handleDeleteProject = (id: string) => {
     const updated = localProjects.filter((p) => p.id !== id);
     setLocalProjects(updated);
-    localStorage.setItem('vivid_projects', JSON.stringify(updated));
+    localStorage.setItem('loopstudio_projects', JSON.stringify(updated));
   };
 
 
@@ -644,7 +644,7 @@ function App() {
     else if (format === 'eps') mimeType = 'application/postscript';
     else if (format === 'ai' || format === 'cdr') mimeType = 'image/svg+xml';
 
-    const suggestedName = `vivid-design.${format}`;
+    const suggestedName = `loopstudio-design.${format}`;
     let fileHandle: any = null;
     
     // 1. Immediately request the file handle from the user to preserve the user gesture context!
@@ -698,7 +698,7 @@ function App() {
     if (format === 'ai' || format === 'cdr' || format === 'eps') {
       let fileContent = '';
       if (format === 'eps') {
-        fileContent = `%!PS-Adobe-3.0 EPSF-3.0\n%%BoundingBox: 0 0 ${doc.width} ${doc.height}\n%%Title: VividExpress Design\n%%Creator: VividExpress\n%%Pages: 1\n%%EndComments\n\n% SVG Source code wrapped for vector graphic packages:\n\n(${svgString.replace(/\(/g, '\\(').replace(/\)/g, '\\)')}) showpage\n`;
+        fileContent = `%!PS-Adobe-3.0 EPSF-3.0\n%%BoundingBox: 0 0 ${doc.width} ${doc.height}\n%%Title: Loopstudio Design\n%%Creator: Loopstudio\n%%Pages: 1\n%%EndComments\n\n% SVG Source code wrapped for vector graphic packages:\n\n(${svgString.replace(/\(/g, '\\(').replace(/\)/g, '\\)')}) showpage\n`;
       } else {
         fileContent = svgString;
       }
